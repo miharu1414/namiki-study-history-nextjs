@@ -37,8 +37,8 @@ export default function Footer() {
         {' '}
         &copy; {new Date().getFullYear()}
         <Text as="span" fontWeight="500" ms="4px">
-          Horizon UI. All Rights Reserved. Made with love by
-          <Link
+          For CLP STUDY by Namiki  All Rights Reserved. 
+          {/* <Link
             mx="3px"
             color={textColor}
             href="https://www.simmmple.com"
@@ -46,7 +46,7 @@ export default function Footer() {
             fontWeight="700"
           >
             Simmmple!
-          </Link>
+          </Link> */}
         </Text>
       </Text>
       <List display="flex">
@@ -61,10 +61,10 @@ export default function Footer() {
             color={textColor}
             href="mailto:hello@simmmple.com"
           >
-            Support
+            
           </Link>
         </ListItem>
-        <ListItem
+        {/* <ListItem
           me={{
             base: '20px',
             md: '44px',
@@ -100,7 +100,7 @@ export default function Footer() {
           >
             Blog
           </Link>
-        </ListItem>
+        </ListItem> */}
       </List>
     </Flex>
   );

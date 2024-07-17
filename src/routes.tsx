@@ -25,13 +25,14 @@ const routes: IRoute[] = [
     path: '/default',
     icon: <Icon as={MdHome} width="20px" height="20px" color="inherit" />,
   },
+
   {
-    name: 'NFT Marketplace',
+    name: 'Sample',
     layout: '/admin',
-    path: '/nft-marketplace',
+    path: '/sample',
     icon: (
       <Icon
-        as={MdOutlineShoppingCart}
+        as={MdBarChart}
         width="20px"
         height="20px"
         color="inherit"
@@ -42,7 +43,7 @@ const routes: IRoute[] = [
   {
     name: 'Data Tables',
     layout: '/admin',
-    icon: <Icon as={MdBarChart} width="20px" height="20px" color="inherit" />,
+    icon: <Icon as={MdOutlineShoppingCart} width="20px" height="20px" color="inherit" />,
     path: '/data-tables',
   },
   {

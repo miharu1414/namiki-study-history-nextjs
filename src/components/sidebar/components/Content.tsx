@@ -22,6 +22,7 @@ function SidebarContent(props: SidebarContentProps) {
 				<Box ps='20px' pe={{ lg: '16px', '2xl': '16px' }}>
 					<Links routes={routes} />
 				</Box>
+			
 			</Stack>
 
 			<Box ps='20px' pe={{ lg: '16px', '2xl': '20px' }} mt='60px' mb='40px' borderRadius='30px'>
